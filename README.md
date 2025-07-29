@@ -1,10 +1,11 @@
-  # 📢 **MOEXHAWK-FC V1.0.1**
+# 📢 **MOEXHAWK-FC V1.0.1**
 
 The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **Flight Controller (FC)** solution tailored for UAV and robotics applications.  
-It integrates essential flight control hardware, high-performance sensors, and a wide array of I/O interfaces in a single board.
+It integrates essential flight control hardware, high-performance sensors, and a wide array of I/O interfaces in a single 4-layer PCB.
 
-![render](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/moexhawk-fc-render.jpg)
+![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png)
 
+---
 
 # 🔶 **Features**
 
@@ -18,7 +19,7 @@ It integrates essential flight control hardware, high-performance sensors, and a
 | **RC Input**               | 1x RC control input (PPM/SBUS supported)                    |
 | **MicroSD Logging**        | MicroSD slot for flight data logging                        |
 | **Status LEDs**            | Multi-color status indicators for FC operation              |
-| **Compact Size**           | Small form factor PCB optimized for tight integration       |
+| **Compact Size**           | 39mm x 41.6mm, 4-layer PCB for EMI reduction & signal integrity |
 | **Wide Compatibility**     | Compatible with ArduPilot, Betaflight, iNav, and PX4        |
 
 ---
@@ -26,19 +27,22 @@ It integrates essential flight control hardware, high-performance sensors, and a
 # 🔶 **Supported Firmwares**
 
 ## [**ArduPilot**](https://firmware.ardupilot.org/Copter/)
-- Version Requirement: `4.3.0` and later
-- ✅ Tested
+- Version Requirement: `4.3.0` and later  
+- ✅ Tested  
+- 📦 **Firmware Location**:  
+  `/firmware/bin/arducopter.apj`  
+  Upload this `.apj` file using **Mission Planner** or any compatible GCS.
 
 ## [**Betaflight**](https://github.com/betaflight/betaflight/releases)
-- Version Requirement: `4.4.x` and later
+- Version Requirement: `4.4.x` and later  
 - ✅ Tested
 
 ## [**iNav**](https://github.com/iNavFlight/inav/releases)
-- Version Requirement: `6.x` and later
+- Version Requirement: `6.x` and later  
 - ❌ Not Tested Yet
 
 ## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
-- Version Requirement: `1.13.1` and newer
+- Version Requirement: `1.13.1` and newer  
 - ❌ Not Tested Yet
 
 ---
@@ -67,6 +71,7 @@ It integrates essential flight control hardware, high-performance sensors, and a
 | **MicroSD Logging**      | ✅ Tested         |
 | **LED Indicators**       | ✅ Tested         |
 
+---
 
 # 🔶 **Port Layout**
 
@@ -97,25 +102,50 @@ It integrates essential flight control hardware, high-performance sensors, and a
 
 ---
 
-# 🔶 **Board Image & Dimensions**
+# 🔶 **Board Images**
 
-![Board Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/moexhawk-fc-top.jpg)
+| **Top View** | **Bottom View** |
+|--------------|------------------|
+| ![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png) | ![Bottom View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Buttom%20real%20photo.png) |
 
-📏 *Dimensions*: 55mm x 55mm  
-🔩 *Mounting Holes*: Standard 30.5mm x 30.5mm M3 spacing
+---
 
+# 🛰️ **Drone Testing**
+
+| **Flight Test 1** | **Flight Test 2** |
+|------------------|------------------|
+| ![Drone Test 1](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%201.jpg) | ![Drone Test 2](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%202.jpg) |
+
+---
+
+# 🧩 **3D & PCB Views**
+
+| **Isometric Top** | **Isometric Bottom** |
+|-------------------|----------------------|
+| ![Iso Top](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/izometrik%20photo.png) | ![Iso Bottom](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/izometrik%20photo%20buttom.png) |
+
+![PCB View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/PCB.jpg)
+
+![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/otopilot%20details.png)
+
+---
 
 # 🔶 **Developer Notes**
 
-- Bootloader and firmware flashing supported via DFU and SWD
-- Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)
+- Bootloader and firmware flashing supported via DFU and SWD  
+- Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)  
 - Fully open hardware design, KiCad source files will be released
 
+---
+
 # 🔶 **FEEDBACK**
-If you have any feedback, please reach out to me at [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
+
+If you have any feedback, questions, or feature requests, feel free to contact me at  
+📧 [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
+
+---
 
 # 🔶 **ABOUT ME**
-Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammedrachidi44/)
 
-
-
+📡 Embedded Systems, UAV Autonomy & Robotics Engineer  
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammedrachidi44/)
