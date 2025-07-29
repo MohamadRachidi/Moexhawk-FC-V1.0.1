@@ -4,7 +4,6 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 
 ![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png)
 
----
 
 # 🔶 **Features**
 
@@ -21,36 +20,10 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 | **Compact Size**           | 39mm x 41.6mm, 4-layer PCB for EMI reduction & signal integrity |
 | **Wide Compatibility**     | Compatible with ArduPilot, Betaflight, iNav, and PX4        |
 
----
-
-# 🔶 **Supported Firmwares**
-
-## [**ArduPilot**](https://firmware.ardupilot.org/Copter/)
-- Version Requirement: `4.3.0` and later  
-- ✅ Tested  
-- 📦 **Firmware Location**:  
-  `/firmware/bin/arducopter.apj`
-MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin) 
- 
-  Upload this `.apj` file using **Mission Planner** or any compatible GCS.
-
-## [**Betaflight**](https://github.com/betaflight/betaflight/releases)
-- Version Requirement: `4.4.x` and later  
-- ✅ Tested
-
-## [**iNav**](https://github.com/iNavFlight/inav/releases)
-- Version Requirement: `6.x` and later  
-- ❌ Not Tested Yet
-
-## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
-- Version Requirement: `1.13.1` and newer  
-- ❌ Not Tested Yet
-
----
 
 # 🔶 **Test Status**
 
-## Firmware Testing
+##  Supported Firmware
 
 | **Software**           | **Status**       |
 |------------------------|------------------|
@@ -58,6 +31,13 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 | **Betaflight**         | ✅ Tested         |
 | **iNav**               | ❌ Not Tested Yet |
 | **PX4**                | ❌ Not Tested Yet |
+
+
+🔧 **Custom ArduPilot Firmware**  
+The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal compatibility.  
+📥 Download it from:  
+[👉 Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin/arducopter.apj)
+
 
 ## Peripheral Testing
 
@@ -72,7 +52,6 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 | **MicroSD Logging**      | ✅ Tested         |
 | **LED Indicators**       | ✅ Tested         |
 
----
 
 # 🔶 **Port Layout**
 
@@ -101,7 +80,6 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 | CH1–CH8     | PWM Outputs  | 3.3V Logic  |
 | AUX         | PWM/Servo    | Up to 36V   |
 
----
 
 # 🔶 **Board Images**
 
@@ -109,7 +87,6 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 |--------------|------------------|
 | ![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png) | ![Bottom View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Buttom%20real%20photo.png) |
 
----
 
 # 🛰️ **Drone Testing**
 
@@ -117,7 +94,6 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 |------------------|------------------|
 | ![Drone Test 1](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%201.jpg) | ![Drone Test 2](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%202.jpg) |
 
----
 
 # 🧩 **3D & PCB Views**
 
@@ -129,7 +105,6 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 
 ![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/otopilot%20details.png)
 
----
 
 # 🔶 **Developer Notes**
 
@@ -137,14 +112,12 @@ MOEXHAWK-FC has been tested and validated with [ArduPilot](https://github.com/Mo
 - Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)  
 - Fully open hardware design, KiCad source files will be released
 
----
 
 # 🔶 **FEEDBACK**
 
 If you have any feedback, questions, or feature requests, feel free to contact me at  
 📧 [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
 
----
 
 # 🔶 **ABOUT ME**
 
