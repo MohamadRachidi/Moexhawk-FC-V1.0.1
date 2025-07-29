@@ -5,7 +5,6 @@ It integrates essential flight control hardware, high-performance sensors, and a
 
 ![render](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/moexhawk-fc-render.jpg)
 
----
 
 # 🔶 **Features**
 
@@ -68,7 +67,6 @@ It integrates essential flight control hardware, high-performance sensors, and a
 | **MicroSD Logging**      | ✅ Tested         |
 | **LED Indicators**       | ✅ Tested         |
 
----
 
 # 🔶 **Port Layout**
 
@@ -79,9 +77,7 @@ It integrates essential flight control hardware, high-performance sensors, and a
 | 1      | VCC        | +5V                    |
 | 2      | TX         | Transmit (3.3V level)  |
 | 3      | RX         | Receive (3.3V level)   |
-| 4      | CTS        | Clear To Send          |
-| 5      | RTS        | Request To Send        |
-| 6      | GND        | Ground                 |
+| 4      | GND        | Ground                 |
 
 ### I2C Port
 
