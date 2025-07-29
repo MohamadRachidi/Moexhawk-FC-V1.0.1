@@ -1,6 +1,6 @@
 # 📢 **MOEXHAWK-FC V1.0.1**
 
-The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **Flight Controller (FC)** solution tailored for UAV and robotics applications.This version is a standalone autopilot that directly integrates core flight control capabilities, sensor interfaces, and extensive I/O support on a single PCB. The design focuses on robust performance, precise sensing, and broad connectivity, making it suitable for both research and field deployment in autonomous systems. MOEXHAWK-FC has been tested and validated with ArduPilot and Betaflight firmware, confirming its compatibility and reliable operation in various flight scenarios. INAV support is also available, although full testing is pending.
+The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **Flight Controller (FC)** solution tailored for UAV and robotics applications. This version is a standalone autopilot that directly integrates core flight control capabilities, sensor interfaces, and extensive I/O support on a single PCB. The design focuses on robust performance, precise sensing, and broad connectivity, making it suitable for both research and field deployment in autonomous systems. MOEXHAWK-FC has been tested and validated with ArduPilot and Betaflight firmware, confirming its compatibility and reliable operation in various flight scenarios. INAV support is also available, although full testing is pending.
 
 ![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png)
 
