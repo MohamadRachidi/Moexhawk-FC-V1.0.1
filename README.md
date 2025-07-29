@@ -1,5 +1,4 @@
- # 📢 **MOEXHAWK**
-# 📢 **MOEXHAWK-FC V1.0.1**
+  # 📢 **MOEXHAWK-FC V1.0.1**
 
 The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **Flight Controller (FC)** solution tailored for UAV and robotics applications.  
 It integrates essential flight control hardware, high-performance sensors, and a wide array of I/O interfaces in a single board.
