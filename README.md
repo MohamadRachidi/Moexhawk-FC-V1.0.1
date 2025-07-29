@@ -1,6 +1,5 @@
-# Moexhawk-FC-V1.0.1
  # 📢 **MOEXHAWK**
-The **MOEXHAWK V1.0.2 Baseboard** is a versatile single-board platform that combines a swappable Pixhawk flight controller and the Raspberry Pi CM4 companion computer. This baseboard offers a compact design, integrating all essential development connections in one place. It facilitates a smooth experience for developers needing an efficient and integrated solution for UAV or robotics projects.
+The **Moexhawk-FC-V1.0.1** is a versatile single-board platform that combines a swappable Pixhawk flight controller and the Raspberry Pi CM4 companion computer. This baseboard offers a compact design, integrating all essential development connections in one place. It facilitates a smooth experience for developers needing an efficient and integrated solution for UAV or robotics projects.
 
 It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and [Autopilot Bus Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-010%20Pixhawk%20Autopilot%20Bus%20Standard.pdf), allowing easy swap of FC Module with any FC that follows the Pixhawk Bus Standard.
 
@@ -151,10 +150,10 @@ The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
 | -    | GND            | GND      |
 
 # 🔶 **FEEDBACK**
-If you have any feedback, please reach out to me at [mohamad.elrashidi@gmail.com](mailto:mohamad.elrashidi@gmail.com)
+If you have any feedback, please reach out to me at [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
 
 # 🔶 **ABOUT ME**
-Connect with me on [LinkedIn](https://www.linkedin.com/in/mohamedrachidi44/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammedrachidi44/)
 
 
 
