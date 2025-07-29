@@ -21,9 +21,9 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 | **Wide Compatibility**     | Compatible with ArduPilot, Betaflight, iNav, and PX4        |
 
 
-# 🔶 **Test Status**
+# 🔶 **Supported Firmwares**
 
-##  Supported Firmware
+## [**Ardupilot**](https://firmware.ardupilot.org/Copter/)
 
 | **Software**           | **Status**       |
 |------------------------|------------------|
@@ -36,7 +36,7 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 🔧 **Custom ArduPilot Firmware**  
 The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal compatibility.  
 📥 Download it from:  
-[👉 Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin/arducopter.apj)
+[Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin/arducopter.apj)
 
 
 ## Peripheral Testing
@@ -54,7 +54,9 @@ The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal comp
 
 
 # 🔶 **Connections & Ports**
+
 ![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/images/otopilot%20details.png)
+
 ### Telemetry (TELEM1–TELEM4)
 
 | **Pin** | **Signal** | **Description**        |
@@ -80,44 +82,16 @@ The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal comp
 | CH1–CH8     | PWM Outputs  | 3.3V Logic  |
 | AUX         | PWM/Servo    | Up to 36V   |
 
-
-# 🔶 **Board Images**
-
-| **Top View** | **Bottom View** |
-|--------------|------------------|
-| ![Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Top%20real%20photo.png) | ![Bottom View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Buttom%20real%20photo.png) |
-
-
-# 🛰️ **Drone Testing**
-
-| **Flight Test 1** | **Flight Test 2** |
-|------------------|------------------|
-| ![Drone Test 1](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%201.jpg) | ![Drone Test 2](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Drone%20test%202.jpg) |
-
-
-# 🧩 **3D & PCB Views**
-
-| **Isometric Top** | **Isometric Bottom** |
-|-------------------|----------------------|
-| ![Iso Top](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/izometrik%20photo.png) | ![Iso Bottom](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/izometrik%20photo%20buttom.png) |
-
-![PCB View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/PCB.jpg)
-
-![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/otopilot%20details.png)
-
-
 # 🔶 **Developer Notes**
 
 - Bootloader and firmware flashing supported via DFU and SWD  
 - Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)  
 - Fully open hardware design, KiCad source files will be released
 
-
 # 🔶 **FEEDBACK**
 
 If you have any feedback, questions, or feature requests, feel free to contact me at  
 📧 [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
-
 
 # 🔶 **ABOUT ME**
 
