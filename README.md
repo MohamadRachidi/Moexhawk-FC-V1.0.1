@@ -87,8 +87,7 @@ The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal comp
 
 # 🔶 **FEEDBACK**
 
-If you have any feedback, questions, or feature requests, feel free to contact me at  
-📧 [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
+If you have any feedback, questions, or feature requests, feel free to contact me at [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
 
 # 🔶 **ABOUT ME**
 
