@@ -91,5 +91,4 @@ If you have any feedback, questions, or feature requests, feel free to contact m
 
 # 🔶 **ABOUT ME**
 
-📡 Embedded Systems, UAV Autonomy & Robotics Engineer  
-🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammedrachidi44/)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/muhammedrachidi44/)
