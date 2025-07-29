@@ -35,9 +35,7 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 
 ## [**Custom ArduPilot Firmware**](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/tree/main/moexhawk%20Ardupilot%20firmware)
 The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal compatibility.  
-📥 Download it from:  
-[Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin)
-
+📥 Download it from: [Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin)
 
 ## Peripheral Testing
 
@@ -86,7 +84,6 @@ The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal comp
 
 - Bootloader and firmware flashing supported via DFU and SWD  
 - Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)  
-- Fully open hardware design, KiCad source files will be released
 
 # 🔶 **FEEDBACK**
 
