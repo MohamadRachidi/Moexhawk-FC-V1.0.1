@@ -32,7 +32,9 @@ MOEXHAWK-FC has been tested and validated with ArduPilot and Betaflight firmware
 - Version Requirement: `4.3.0` and later  
 - ✅ Tested  
 - 📦 **Firmware Location**:  
-  `/firmware/bin/arducopter.apj`  
+  `/firmware/bin/arducopter.apj`
+MOEXHAWK-FC has been tested and validated with [ArduPilot](https://firmware.ardupilot.org/Copter/stable/MOEXHAWK-FC/arducopter.apj) 
+ 
   Upload this `.apj` file using **Mission Planner** or any compatible GCS.
 
 ## [**Betaflight**](https://github.com/betaflight/betaflight/releases)
