@@ -53,7 +53,7 @@ The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal comp
 
 # 🔶 **Connections & Ports**
 
-![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/images/otopilot%20details.png)
+![Board Details](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/images/otopilot%20details.jpg)
 
 ### Telemetry (TELEM1–TELEM4)
 
