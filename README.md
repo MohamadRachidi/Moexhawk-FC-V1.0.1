@@ -33,10 +33,10 @@ The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **F
 | **PX4**                | ❌ Not Tested Yet |
 
 
-🔧 **Custom ArduPilot Firmware**  
+## [**Custom ArduPilot Firmware**](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/tree/main/moexhawk%20Ardupilot%20firmware)
 The MOEXHAWK-FC requires a tailored ArduPilot firmware (`.apj`) for optimal compatibility.  
 📥 Download it from:  
-[Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin/arducopter.apj)
+[Custom ArduPilot Firmware (.apj)](https://github.com/MohamadRachidi/Moexhawk-FC-V1.0.1/blob/main/moexhawk%20Ardupilot%20firmware/bin)
 
 
 ## Peripheral Testing
