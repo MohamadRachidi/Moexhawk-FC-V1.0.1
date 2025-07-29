@@ -1,153 +1,120 @@
  # 📢 **MOEXHAWK**
-The **Moexhawk-FC-V1.0.1** is a versatile single-board platform that combines a swappable Pixhawk flight controller and the Raspberry Pi CM4 companion computer. This baseboard offers a compact design, integrating all essential development connections in one place. It facilitates a smooth experience for developers needing an efficient and integrated solution for UAV or robotics projects.
+# 📢 **MOEXHAWK-FC V1.0.1**
 
-It follows the [Pixhawk Connector](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-009%20Pixhawk%20Connector%20Standard.pdf) and [Autopilot Bus Standard](https://github.com/pixhawk/Pixhawk-Standards/blob/master/DS-010%20Pixhawk%20Autopilot%20Bus%20Standard.pdf), allowing easy swap of FC Module with any FC that follows the Pixhawk Bus Standard.
+The **MOEXHAWK-FC V1.0.1** is a fully custom-designed, compact, and reliable **Flight Controller (FC)** solution tailored for UAV and robotics applications.  
+It integrates essential flight control hardware, high-performance sensors, and a wide array of I/O interfaces in a single board.
 
+![render](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/moexhawk-fc-render.jpg)
 
-![image](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/izometric%20and%20render.jpg)
-
-
-
+---
 
 # 🔶 **Features**
 
-| **Feature**                   | **Description**                                                |
-|-------------------------------|----------------------------------------------------------------|
-| **CSI Camera Port**           | 1x CSI camera for the Raspberry Pi CM4                        |
-| **CM4 Ethernet Port**         | 1x Ethernet port for CM4                                      |
-| **I2C/SPI/UART Ports**        | 1x each of I2C, SPI, and UART/I2C ports                      |
-| **CAN Ports**                 | 1x CAN port                                                  |
-| **Telemetry Ports**           | 1x Telemetry port                                            |
-| **Safety Switch**             | 1x Built-in Safety Switch on board                           |
-| **CM4 GPIO Ports**            | 20x CM4 GPIO  ports                                          |
-| **FC Port**                   | 1x FC port                                                   |
-| **USB Port**                  | 1x Type-C USB port for CM4                                   |
-| **FAN Connector**             | 1x FAN connector                                             |
-| **Status LEDs**               | 4x CM4 and 1x FC status LEDs                                 |
-| **Power Connectors**          | 1x Power connectors and 1x XT30                              |
-| **UBEC**                      | 1x built-in UBEC powers the CM4 and I/O PWM ports            |
+| **Feature**                | **Description**                                              |
+|----------------------------|--------------------------------------------------------------|
+| **IMU Sensor**             | Onboard ICM42688-P (High Precision 6-axis IMU)              |
+| **Barometer**              | Integrated DPS368XTSA1 (Ultra-Low Pressure Drift)           |
+| **PWM Outputs**            | 9x PWM outputs for motors, servos, and actuators            |
+| **Telemetry Ports**        | 4x Dedicated Telemetry ports (TELEM1–TELEM4)                |
+| **I2C Interface**          | 1x I2C port for peripheral sensors and expansions           |
+| **RC Input**               | 1x RC control input (PPM/SBUS supported)                    |
+| **MicroSD Logging**        | MicroSD slot for flight data logging                        |
+| **Status LEDs**            | Multi-color status indicators for FC operation              |
+| **Compact Size**           | Small form factor PCB optimized for tight integration       |
+| **Wide Compatibility**     | Compatible with ArduPilot, Betaflight, iNav, and PX4        |
 
+---
 
+# 🔶 **Supported Firmwares**
 
+## [**ArduPilot**](https://firmware.ardupilot.org/Copter/)
+- Version Requirement: `4.3.0` and later
+- ✅ Tested
 
+## [**Betaflight**](https://github.com/betaflight/betaflight/releases)
+- Version Requirement: `4.4.x` and later
+- ✅ Tested
 
-# 🔶 **Supported Firmwares For FC & CM4**
-
-
-
-## [**Ardupilot**](https://firmware.ardupilot.org/Copter/)
-
-- Version Requirement: Must use ArduPilot versions `3.8` and later with the Pixhawk
-- **Guide**: [Ardupilot Wiki on Running Companion Computer](https://ardupilot.org/dev/docs/companion-computers.html)
+## [**iNav**](https://github.com/iNavFlight/inav/releases)
+- Version Requirement: `6.x` and later
+- ❌ Not Tested Yet
 
 ## [**PX4**](https://github.com/PX4/PX4-Autopilot/releases)
-- **Version Requirement**: Must use PX4 `1.13.1` Stable and newer.
-- **Guide**: [PX4 Guide on Running Companion Computer](https://docs.px4.io/main/en/companion_computer/pixhawk_companion.html) - Provides information on how to run a companion computer.
+- Version Requirement: `1.13.1` and newer
+- ❌ Not Tested Yet
 
-## [**RPANION SERVER**](https://github.com/stephendade/Rpanion-server/releases/tag/v0.10.0)
-- **Version Requirement**: Must use RPANION Server version `0.10.0`
-- **Guide**: [RPANION Server For Companion Computer](https://github.com/stephendade/Rpanion-server)
+---
 
-## [**RASPBERRY OS**](https://www.raspberrypi.com/software/operating-systems/)
-- **Version Requirement**: It is preferred to use the `latest version`.
-- **Guide**: [Flash an image to a Compute Module](https://www.raspberrypi.com/documentation/computers/compute-module.html#flash-compute-module-emmc)
+# 🔶 **Test Status**
 
-# 🔶 **Test Cases**
+## Firmware Testing
 
- ## **Tested Firmware**
-| **Software**           |  **Status**         |
-|------------------------|---------------------|
-| **ArduPilot**          | ✅ Tested           |
-| **PX4**                | ❌ Not Tested Yet      |
-| **RPANION Server**     | ✅ Tested           |
-| **Raspberry Pi OS**    | ✅ Tested             |
+| **Software**           | **Status**       |
+|------------------------|------------------|
+| **ArduPilot**          | ✅ Tested         |
+| **Betaflight**         | ✅ Tested         |
+| **iNav**               | ❌ Not Tested Yet |
+| **PX4**                | ❌ Not Tested Yet |
 
- ## Peripheral Status
+## Peripheral Testing
 
-| **Peripheral**           | **Status**         |
-|--------------------------|--------------------|
-| **CSI Camera**           | ✅Tested        |
-| **I2C Pinout**           | ❌ Not Tested Yet    |
-| **CAN2 Pinout**          | ✅Tested        |
-| **USB Pinout**           | ✅  Tested      |
-| **TELEM1 Pinout**        | ✅   Tested        |
-| **I/O PWM OUT (MAIN)**   | ✅   Tested       |
-| **eMMC Storage**         | ✅    Tested        |
-| **USB-0 Host**           | ✅   Tested        |
-| **Ethernet 10M/100M/1000M**| ✅     Tested     |
-| **Status LED**           | ✅   Tested        |
-| **WiFi**                 | ✅ Tested         |
+| **Peripheral**          | **Status**       |
+|--------------------------|------------------|
+| **IMU (ICM42688-P)**     | ✅ Tested         |
+| **Barometer (DPS368)**   | ✅ Tested         |
+| **RC Input**             | ✅ Tested         |
+| **PWM Outputs**          | ✅ Tested         |
+| **Telemetry Ports**      | ✅ TELEM1-TELEM4  |
+| **I2C Bus**              | ✅ Tested         |
+| **MicroSD Logging**      | ✅ Tested         |
+| **LED Indicators**       | ✅ Tested         |
 
-## Recommend specification for RPi CM4:
-- Wireless: Yes
-- RAM: 4GB or higher
-- eMMC: 16GB or higher
-# 🔶 **Connections & Ports**
+---
+
+# 🔶 **Port Layout**
+
+### Telemetry (TELEM1–TELEM4)
+
+| **Pin** | **Signal** | **Description**        |
+|--------|------------|------------------------|
+| 1      | VCC        | +5V                    |
+| 2      | TX         | Transmit (3.3V level)  |
+| 3      | RX         | Receive (3.3V level)   |
+| 4      | CTS        | Clear To Send          |
+| 5      | RTS        | Request To Send        |
+| 6      | GND        | Ground                 |
+
+### I2C Port
+
+| **Pin** | **Signal** | **Description**        |
+|--------|------------|------------------------|
+| 1      | VCC        | +5V                    |
+| 2      | SCL        | Clock (3.3V)           |
+| 3      | SDA        | Data (3.3V)            |
+| 4      | GND        | Ground                 |
+
+### PWM Outputs
+
+| **Channel** | **Signal**   | **Voltage** |
+|-------------|--------------|-------------|
+| CH1–CH8     | PWM Outputs  | 3.3V Logic  |
+| AUX         | PWM/Servo    | Up to 36V   |
+
+---
+
+# 🔶 **Board Image & Dimensions**
+
+![Board Top View](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/moexhawk-fc-top.jpg)
+
+📏 *Dimensions*: 55mm x 55mm  
+🔩 *Mounting Holes*: Standard 30.5mm x 30.5mm M3 spacing
 
 
-![image](https://github.com/MohamadRachidi/Moexhawk-FC/blob/main/images/Connections%20%26%20Ports.jpg)
+# 🔶 **Developer Notes**
 
-### RPi CM4 & FC Serial Connection
-The flight controller `TELEM2` port is internally connected to RPi CM4 as shown:
-| **RPi CM4** | **FC TELEM2 (FMU)** |
-|-----------------|-------------------------|
-| GPIO14 (TXD)    | TXD                     |
-| GPIO15 (RXD)    | RXD                     |
-| GPIO16 (CTS)    | CTS                     |
-| GPIO17 (RTS)    | RTS                     |
-
-### POWER1 Pinout
-| **Pin**    | **Signal**        | **Voltage**       |
-|------------|-------------------|-------------------|
-| 1 (red)    | VCC               | +5V               |
-| 2 (red)    | VCC               | +5V               |
-| 3 (blk)    | CURRENT sensing   | +3.3V             |
-| 4 (blk)    | VOLTAGE sensing   | +3.3V             |
-| 5 (blk)    | GND               | GND               |
-| 6 (blk)    | GND               | GND               |
-
-### I2C Pinout
-| **Pin**    | **Signal**   | **Voltage**           |
-|------------|--------------|-----------------------|
-| 1 (red)    | VCC          | +5V                   |
-| 2 (blk)    | SCL          | +3.3V (pullups)       |
-| 3 (blk)    | SDA          | +3.3V (pullups)       |
-| 4 (blk)    | GND          | GND                   |
-
-### CAN2 Pinout
-| **Pin**    | **Signal**   | **Voltage**           |
-|------------|--------------|-----------------------|
-| 1 (red)    | VCC          | +5V                   |
-| 2 (blk)    | CAN_H        | +12V                  |
-| 3 (blk)    | CAN_L        | +12V                  |
-| 4 (blk)    | GND          | GND                   |
-
-### USB Pinout
-| **Pin**    | **Signal**        | **Voltage**       |
-|------------|-------------------|-------------------|
-| 1 (red)    | VCC               | +5V               |
-| 2 (blk)    | OTG_DP1           | +3.3V             |
-| 3 (blk)    | OTG_DM1           | +3.3V             |
-| 4 (blk)    | GND               | GND               |
-| 5 (blk)    | BUZZER            | Battery voltage   |
-| 6 (blk)    | FMU Error LED     |                   |
-
-### TELEM1 Pinout
-| **Pin**    | **Signal**        | **Voltage**       |
-|------------|-------------------|-------------------|
-| 1 (red)    | VCC               | +5V               |
-| 2 (blk)    | TX (OUT)          | +3.3V to 5V       |
-| 3 (blk)    | RX (IN)           | +3.3V to 5V       |
-| 4 (blk)    | CTS (OUT)         | +3.3V to 5V       |
-| 5 (blk)    | RTS (IN)          | +3.3V to 5V       |
-| 6 (blk)    | GND               | GND               |
-
-### I/O PWM OUT (MAIN)
-| Pin  | Signal         | Volt     |
-|------|----------------|----------|
-| S    | IO_CH1~8       | +3.3V    |
-| +    | VDD_SERVO      | 0~36V    |
-| -    | GND            | GND      |
+- Bootloader and firmware flashing supported via DFU and SWD
+- Compatible with MAVLink-based ground control stations (e.g., Mission Planner, QGroundControl)
+- Fully open hardware design, KiCad source files will be released
 
 # 🔶 **FEEDBACK**
 If you have any feedback, please reach out to me at [muhammed.elrachidi@gmail.com](mailto:muhammed.elrachidi@gmail.com)
